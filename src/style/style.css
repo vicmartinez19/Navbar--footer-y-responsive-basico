@@ -14,12 +14,36 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px 5%;
-  background-color: #1a472a; /* Verde bosque */
+  background-color: #1a472a; 
   color: white;
 }
 
 .navbar_menu {
-  display: none; /* Se oculta en móvil por defecto */
+  display: none; 
   list-style: none;
   gap: 20px;
+}
+
+.navbar_menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar_cita {
+  background-color: #f1c40f;
+  color: #1a472a;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 60vh;
+  background-color: #e8f5e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
