@@ -61,3 +61,25 @@ body{
   align-items: center;
   z-index: 9999; 
 }
+
+.site-footer {
+  background: #3f4141;
+  color: #ccc;
+  padding: 40px 5%;
+}
+
+.footer_cols {
+  display: flex;
+  flex-direction: column; 
+  gap: 30px;
+}
+
+.footer_col h3 { 
+    color: white; margin-bottom: 10px;
+ }
+.footer_col ul {
+     list-style: none; 
+}
+.footer_col a { 
+    color: #aaa; text-decoration: none; 
+}
