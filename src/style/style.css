@@ -83,3 +83,14 @@ body{
 .footer_col a { 
     color: #aaa; text-decoration: none; 
 }
+
+@media (min-width: 768px) {
+  .navbar_menu {
+    display: flex; 
+  }
+
+  .footer_cols {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
