@@ -80,13 +80,13 @@ body{
 .site-footer {
   background: #3f4141;
   color: #ccc;
-  padding: 40px 5%;
+ padding: 3rem 5%;
 }
 
 .footer_cols {
   display: flex;
   flex-direction: column; 
-  gap: 30px;
+gap: 2rem;
 }
 
 .footer_col h3 { 
@@ -99,13 +99,32 @@ body{
     color: #aaa; text-decoration: none; 
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5%;
+  }
+
   .navbar_menu {
-    display: flex; 
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .hero {
+    min-height: 80vh; 
+  }
+  .hero h1 {
+    font-size: 3.5rem; 
   }
 
   .footer_cols {
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
+  }
+
+  .cookies-banner {
+    flex-direction: row; 
+    justify-content: space-around;
   }
 }
